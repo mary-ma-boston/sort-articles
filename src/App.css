@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+
+.header button {
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: aquamarine;
+  border-radius: 2px;
+}
